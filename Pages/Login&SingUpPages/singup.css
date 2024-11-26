@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+
+    width: 100%;
+    height: 100%;
+}
+.Main-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: deeppink;
+
+}
+.Signup{
+    width: 30%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    gap: 2px;
+    margin-top: 8%;
+    border-radius: 30px;
+}
+
+input{
+    width: 50%;       /* Full width of the container */
+    height: 10%;      /* Adjusts the height for a larger input */
+    padding: 10px;     /* Increases padding for extra space inside */
+    font-size: 18px;   /* Larger font size */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box
+}
+
+.btn{
+    width: 50%;       /* Full width of the container */
+    height: 45 px;      /* Adjusts the height for a larger input */
+    padding: 10px;     /* Increases padding for extra space inside */
+    font-size: 18px;   /* Larger font size */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box
+    
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form id="registration-form">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" />
+        </div>
+
+        <div>
+            <label>Gender: </label>
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+        </div>
+
+        <div>
+            <label>Departments: </label>
+            <label><input type="checkbox" name="department" value="HR"> HR</label>
+            <label><input type="checkbox" name="department" value="Engineering"> Engineering</label>
+            <label><input type="checkbox" name="department" value="Sales"> Sales</label>
+        </div>
+
+        <div>
+            <label for="salary">Salary: </label>
+            <input type="number" id="salary" name="salary" placeholder="Enter your salary" />
+        </div>
+
+        <div>
+            <button type="button" onclick="submitForm()">Submit</button>
+        </div>
+    </form>
+
+    <div id="output"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>

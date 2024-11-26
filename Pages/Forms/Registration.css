@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.main-container {
+    background-color: beige;
+    padding: 25px;
+    width: 30%;
+    height: 70%;
+    margin: 25px auto;
+    border-top: 5px solid palevioletred;
+    box-shadow: 5px 0 7px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 5%;
+}
+
+.main-container h1 {
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.input-name {
+    position: relative;
+    margin: 20px auto;
+}
+
+.name {
+    padding: 10px;
+}
+
+.input-name span {
+    margin-left: 20px;
+}
+
+.input-name i {
+    font-size: 25px;
+    color: blue;
+
+}

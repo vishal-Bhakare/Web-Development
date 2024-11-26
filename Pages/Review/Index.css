@@ -1,0 +1,61 @@
+
+.Main-container{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    flex-direction: column;
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container span{
+
+    margin-left: 20px;
+}
+
+.container p {
+    padding: 20px;
+
+}
+
+.container1 div{
+    flex-direction: column;
+
+}

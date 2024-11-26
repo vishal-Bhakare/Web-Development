@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EmployeeDeatils.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Employee Details</title>
+</head>
+
+<body>
+
+    <header class="header-content header">
+        <div class="logo-content">
+            <img src="../assets/logo.png" alt="logo">
+            <div>
+                <span class="emp-text">EMPLOYEE</span><br>
+                <span class="emp-text emp-payroll">PAYROLL</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="header-content">
+            <div class="emp-detail-text">Employee Details</div>
+            <div class="searchBar">
+                <button id="search-button" class="searchIconButton">
+                    <i class="fa fa-search searchIcon" aria-hidden="true" id="icon" style="font-size: larger"></i>
+                </button>
+            </div>
+            <div class="searchAddUser-cnt">
+                <button id="add-user-button" class="add-button">
+                    <a href="EmployeePayRoll.html"><i class="fa fa-plus">Add Users</i></a>
+                </button>
+            </div>
+        </div>
+
+        <table id="display" class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                    <th>Start Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+
+    <script src="Employee.js"></script>
+</body>
+
+</html>
